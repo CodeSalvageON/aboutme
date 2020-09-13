@@ -1,0 +1,90 @@
+body{
+  color: white;
+  overflow: hidden;
+  background-color: black;
+  cursor: url('https://aboutme.codesalvageon.repl.co/cursor1.png'), default;
+  background-image: url("https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2Fgetwallpapers.com%2Fwallpaper%2Ffull%2F3%2F2%2F1%2F53581.jpg&f=1&nofb=1");
+}
+
+.window{
+  margin: 0;
+  width: 550px;
+  height: 500px;
+  color: black;
+  padding: 10px;
+  border: 2px solid white;
+  position: fixed;
+  background-color: gainsboro;
+}
+
+.close{
+  float: right;
+}
+
+.blue{
+  background-color: blue;
+}
+
+button{
+  border-color: white;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+#bottom-bar{
+  left: 0px;
+  bottom: 2px;
+  width: 100%;
+  background-color: gainsboro;
+  z-index: 100;
+  position: fixed;
+}
+
+#disabled{
+  background-color: gainsboro;
+}
+
+.lower-icons{
+  left: 100px;
+  bottom: -2px;
+  position: absolute;
+}
+
+.lower-icons:hover{
+  cursor: pointer;
+}
+
+hr {
+       display: block;
+       position: relative;
+       padding: 0;
+       margin: 8px auto;
+       height: 0;
+       width: 100%;
+       max-height: 0;
+       font-size: 1px;
+       line-height: 0;
+       clear: both;
+       border: none;
+       border-top: 1px solid #aaaaaa;
+       border-bottom: 1px solid #ffffff;
+    }
+
+#expand-pls{
+  width: 300px;
+  float: left;
+}
+
+#doom-window{
+  width: 700px;
+}
+
+#doom-iframe{
+  overflow: hidden;
+}
+
+#guestbook-window{
+  width: 700px;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Guestbook</title>
+  </head>
+  <body>
+    <center><h1>Sign My Guestbook!</h1></center>
+    <center><i>Guestbooks were quite a popular thing on the old web. They used a technology called CGI (Common Gateway Interface) to operate. This Guestbook uses PHP (Personal Home Page) to function.</i></center>
+    <center>
+      <form method="POST" action="https://guestbookserver.codesalvageon.repl.co/store.php">
+        <h3>Handle: <input type="text" name="handle"/></h3>
+        <h3>Message: </h3>
+        <textarea name="message" rows="2" cols="50"></textarea>
+        <br/>
+        <button>Leave your message</button>
+        <iframe width="700" height="400" frameBorder="0" src="https://guestbookserver.codesalvageon.repl.co/guestbook.htm"></iframe>
+      </form>
+    </center>
+  </body>
+</html>

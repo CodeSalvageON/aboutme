@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>About Me!</title>
+    
+    <link href="https://aboutme.codesalvageon.repl.co/style.css" type="text/css" rel="stylesheet"/>
+    <link href="https://aboutme.codesalvageon.repl.co/win95.png" rel="icon"/>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <audio id="startup">
+      <source src="https://aboutme.codesalvageon.repl.co/startup.mp3"></source>
+    </audio>
+
+    <div class="body">
+      <window><div class="draggable ui-widget-content window" id="main-window">
+        <div class="blue"><span class="close"><button id="hide">―</button><button id="fill">◱</button><button id="x">X</button>  </span></div>
+        <pre>
+        About Me
+        <div id="expand-pls">
+        (By the way, please allow audio and reload the tab. Thanks!) 
+        - Alex
+        <br/>
+        (After you do that, press F11 on your keyboard,
+        and after that feel free to click on any of 
+        the icons below to learn more about me.)
+        <br/>
+        <iframe src="https://aboutme.codesalvageon.repl.co/info.html" width="500" height="300">
+        </iframe>
+        </div>
+        </pre> 
+      </div></window>
+
+      <window><div class="window draggable ui-widget-content" id="folder-window">
+        <span class="close"><button id="folder-x">X</button></span>
+        <pre>/home/runner/example</pre> 
+        <br/>
+        <br/>
+        <pre>There's nothing in this folder.</pre>
+      </div></window>
+
+      <window><div class="window draggable ui-widget-content" id="doom-window">
+        <span class="close"><button id="doom-x">X</button></span>
+        <center><pre>The Ultimate DOOM</pre></center>
+        <iframe src="https://archive.org/details/The_Ultimate_Doom" frameBorder="0" width="700" height="400" id="doom-iframe" scrolling="no"></iframe> 
+      </div></window>
+
+      <window><div class="window draggable ui-widget-content" id="document-window">
+        <span class="close"><button id="document-x">X</button></span>
+        <center><pre>AboutMe.txt - NotePad</pre></center>
+        <pre>
+My Hobbies -
+My hobbies include programming (this website is an example!),
+playing soccer, reading books, and playing video games (such
+as World of Tanks, World of Warplanes, World of Warships, 
+and many, many RPG and Puzzle Games.)
+
+My Talents -
+My talents include programming and web design.
+
+Preferences - 
+I love foods such as curry, pasta, turkey sandwiches, and chili. 
+
+Interests - 
+My interests include computer science, marine biology, and molecular biology.
+
+Pets -
+I have two cats, Suni and Mini. They are both Maine Coons. They are also 
+brother and sister. 
+Pictures of both of them can be found in image files suni.BMP and mini.BMP.
+
+Sports -
+I usually play soccer each year. However, I don't watch 
+too many sports.
+
+Interesting facts about me -
+I love watching horror movies, and I also go to RSM.
+
+Siblings -
+I have a younger brother named Zachary. He is 7 years old 
+and goes to Memorial.
+        </pre>
+      </div></window>
+
+      <window><div class="window draggable ui-widget-content" id="guestbook-window">
+        <span class="close"><button id="guestbook-x">X</button></span>
+        <center><pre>Alex's Guestbook - Netscape</pre></center>
+        <iframe src="https://aboutme.codesalvageon.repl.co/guestbook.html" width="700" height="400" frameBorder="0"></iframe>
+      </div></window>
+
+      <window><div class="window draggable ui-widget-content" id="suni-window" height="900" width="600">
+        <span class="close"><button id="suni-x">X</button></span>
+        <center><pre>Suni.bmp - MS Paint</pre></center>
+        <center><img src="https://aboutme.codesalvageon.repl.co/suni.jpg" width="300" height="350"/></center>
+      </div></window>
+
+      <window><div class="window draggable ui-widget-content" id="mini-window">
+        <span class="close"><button id="mini-x">X</button></span>
+        <center><pre>Mini.bmp - MS Paint</pre></center>
+        <center><img src="https://aboutme.codesalvageon.repl.co/mini.jpg" width="300" height="350"/></center>
+      </div></window>
+
+      <window><div class="window draggable ui-widget-content" id="rush-window">
+        <span class="close"><button id="rush-x">X</button></span>
+        <center><pre>Subdivisions.mp3 - Windows Media Player</pre></center>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/NhF1Z40Ua20" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+      </div></window>
+
+      <window><div class="window draggable ui-widget-content" id="ghostemane-window">
+        <span class="close"><button id="ghostemane-x">X</button></span>
+        <center><pre>AI.mp3 - Windows Media Player</pre></center>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/gkmuo96fXEA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+      </div></window>
+
+      <window><div class="window draggable ui-widget-content" id="kmfdm-window">
+        <span class="close"><button id="kmfdm-x">X</button></span>
+        <center><pre>Trust.mp3 - Windows Media Player</pre></center>
+        <center><iframe width="560" height="315" src="https://www.youtube.com/embed/t0NN5_tKaFU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+      </div></window>
+
+      <div id="bottom-bar"> 
+        <button id="disable" disabled><img src="https://aboutme.codesalvageon.repl.co/win95.png" width="10" height="10"/> Start</button><div class="lower-icons"><img src="https://aboutme.codesalvageon.repl.co/folder.png" width="20" height="20" onclick="$('#folder-window').show();"/><img src="https://aboutme.codesalvageon.repl.co/document.png" width="20" height="20" onclick="$('#document-window').show();"/><img src="https://aboutme.codesalvageon.repl.co/netscapenav.png" width="20" height="20" onclick="$('#guestbook-window').show();"/><img src="https://aboutme.codesalvageon.repl.co/program.png" width="20" height="20" onclick="$('#doom-window').show();"/><img src="https://aboutme.codesalvageon.repl.co/imageicon.png" width="20" height="20" onclick="$('#suni-window').show();"/><img src="https://aboutme.codesalvageon.repl.co/imageicon.png" width="20" height="20" onclick="$('#mini-window').show();"/><img src="https://aboutme.codesalvageon.repl.co/audio.png" width="20" height="20" onclick="$('#rush-window').show();"/><img src="https://aboutme.codesalvageon.repl.co/audio.png" width="20" height="20" onclick="$('#ghostemane-window').show();"/><img src="https://aboutme.codesalvageon.repl.co/audio.png" width="20" height="20" onclick="$('#kmfdm-window').show();"/></div>
+      </div>
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://aboutme.codesalvageon.repl.co/script.js"></script>
+    <script src="https://aboutme.codesalvageon.repl.co/startup.js"></script>
+  </body>
+</html>
