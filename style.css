@@ -88,3 +88,7 @@ hr {
 #guestbook-window{
   width: 700px;
 }
+
+#document-window{
+  height: 700px;
+}
